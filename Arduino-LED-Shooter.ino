@@ -56,7 +56,7 @@
   }
 
   void loop() {
-    int y = map(analogRead(J_VRY), 0, 1023, -1, 2);
+    int y = map(analogRead(J_VRY), 0, 1023, -1, 1);
     float speed = y;
 
     //Checking for win condition
