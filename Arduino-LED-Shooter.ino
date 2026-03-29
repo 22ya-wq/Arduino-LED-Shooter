@@ -1,6 +1,5 @@
   int J_VRX = A0;
   int J_VRY = A1;
-  int J_SW = 3;
   int BUTTON = 12;
   int SPEAKER = A5;
 
