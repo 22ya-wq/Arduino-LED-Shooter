@@ -21,7 +21,6 @@
     }
 
     pinMode(BUTTON, INPUT_PULLUP);
-    pinMode(J_SW, INPUT_PULLUP);
     pinMode(SPEAKER, OUTPUT);
 
     randomSeed(analogRead(A1) + analogRead(A2) + micros());
